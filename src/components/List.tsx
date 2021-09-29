@@ -35,7 +35,7 @@ const List: React.FC<ListProps> = ({ id, title, date, tag }) => {
     const deleteTodo = (id: number) => {
         setTodoList(
             todoList.filter((e) => {
-                return e.id != id;
+                return e.id !== id;
             })
         );
     };

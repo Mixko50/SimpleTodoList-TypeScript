@@ -1,7 +1,7 @@
-import { Alert, Stack, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Box, Theme } from "@mui/system";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useRef } from "react";
 import { ProfileContext } from "../contexts/TodoContext";
 import List from "../components/List";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

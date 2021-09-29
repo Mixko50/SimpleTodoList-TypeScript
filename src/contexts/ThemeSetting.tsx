@@ -1,4 +1,3 @@
-import { blue, green, pink, purple, red } from "@mui/material/colors";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 export const ThemeContextProvider: React.FC<{}> = ({ children }) => {
