@@ -11,19 +11,19 @@ export const TodoWrapper: React.FC = ({ children }) => {
         {
             id: 1,
             title: "Go to AKA",
-            date: "09-10-2021",
+            date: "09/10/2021",
             tag: "blue",
         },
         {
             id: 2,
             title: "GEN352 A6, E1",
-            date: "12-10-2021",
+            date: "12/10/2021",
             tag: "red",
         },
         {
             id: 3,
             title: "Go to Suki Tee Noi",
-            date: "16-10-2021",
+            date: "16/10/2021",
             tag: "pink",
         },
     ]);

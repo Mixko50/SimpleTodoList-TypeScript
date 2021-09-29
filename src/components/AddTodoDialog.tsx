@@ -47,10 +47,10 @@ export const AddTodoDialog = forwardRef((props, ref) => {
     return (
         <div>
             <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>Add To Do List</DialogTitle>
+                <DialogTitle>Add To-Do List</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        Add To do list here by input your title, date, tag
+                        Add To-Do List here by input your title, date, tag
                     </DialogContentText>
                     <TextField
                         id="name"

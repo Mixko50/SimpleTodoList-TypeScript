@@ -16,7 +16,7 @@ const Navbar = () => {
             <Box className={classes.section2}>
                 <Box className={classes.logo}>
                     <FontAwesomeIcon icon={faClipboardCheck} size="2x" />
-                    <Typography variant="h5">To Do List</Typography>
+                    <Typography variant="h5">To-Do List</Typography>
                 </Box>
                 <Box>
                     <FontAwesomeIcon icon={faUserCircle} size="2x" />

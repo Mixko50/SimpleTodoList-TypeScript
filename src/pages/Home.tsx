@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Alert, Stack, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Box, Theme } from "@mui/system";
 import { useContext, useRef } from "react";
@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <Box className={classes.mixko}>
             <Box>
-                <Typography variant="h4">To Do List</Typography>
+                <Typography variant="h4">To-Do List</Typography>
             </Box>
             <Box className={classes.buttonBox}>
                 <Box
@@ -46,6 +46,13 @@ const Home = () => {
                 );
             })}
             <AddTodoDialog ref={AddTodoRef} />
+            <Box className={classes.alert}>
+                <Stack spacing={2}>
+                    <Alert severity="warning">
+                        This is a simple web for practice ReactJS + TypeScript
+                    </Alert>
+                </Stack>
+            </Box>
         </Box>
     );
 };
@@ -75,6 +82,11 @@ const useStyles = makeStyles((theme: Theme) => ({
         justifyContent: "center",
         alignItems: "center",
         cursor: "pointer",
+    },
+    alert: {
+        position: "fixed",
+        bottom: "30px",
+        left: "30px",
     },
 }));
 
